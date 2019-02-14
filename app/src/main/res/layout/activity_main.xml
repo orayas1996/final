@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/atv_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg5">
+
+    <include
+        layout="@layout/img"
+        android:layout_width="506dp"
+        android:layout_height="337dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="209dp"
+        android:layout_marginTop="36dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="448dp"
+        android:layout_height="106dp"
+        android:layout_centerInParent="true"
+        android:text="เลเวล ต่อไป"
+        android:textSize="50dp"
+        android:background="#78F327"/>
+
+
+</RelativeLayout>
