@@ -12,7 +12,8 @@
     <TextView
         android:id="@+id/textScreen"
         android:layout_marginTop="40dp"
-        android:layout_gravity="center"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="28dp"
         android:textColor="#FFF"
         android:textSize="22sp"
         android:layout_width="wrap_content"
@@ -22,11 +23,11 @@
     <LinearLayout
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:background="@drawable/bg3"
+        android:background="@drawable/bgquestion"
         android:orientation="vertical"
         android:gravity="center"
-        android:layout_width="290px"
-        android:layout_height="100dp">
+        android:layout_width="290dp"
+        android:layout_height="150dp">
 
 
         <!--<TextView-->
@@ -41,8 +42,8 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="265dp"
+            android:layout_height="120dp"
             app:srcCompat="@drawable/er" />
     </LinearLayout>
 
@@ -64,7 +65,7 @@
 
     <TextView
         android:id="@+id/textTitle"
-        android:text="ตัวสะกด"
+        android:text="พยัญชนะ และ ตัวสะกด"
         android:textSize="24sp"
         android:textColor="#FFF"
         android:layout_marginRight="28dp"

@@ -33,6 +33,7 @@ public class level3 extends AppCompatActivity {
         setContentView(R.layout.level3_main);
 
 
+
         Button btn = (Button) findViewById(R.id.button);
 
         btn.setVisibility(View.INVISIBLE);
@@ -369,18 +370,18 @@ public class level3 extends AppCompatActivity {
 
     }
     private void frontofCardResources(){
-        img11 = R.drawable.ee;
-        img12 = R.drawable.mm;
-        img13 = R.drawable.nn;
-        img14 = R.drawable.er;
-        img21 = R.drawable.ff;
-        img22 = R.drawable.hh;
-        img23 = R.drawable.ee2;
-        img24 = R.drawable.mm2;
-        img31 = R.drawable.nn2;
-        img32 = R.drawable.er2;
-        img33 = R.drawable.ff2;
-        img34 = R.drawable.hh2;
+        img11 = R.drawable.b;
+        img12 = R.drawable.b;
+        img13 = R.drawable.d;
+        img14 = R.drawable.d;
+        img21 = R.drawable.n;
+        img22 = R.drawable.n;
+        img23 = R.drawable.b3;
+        img24 = R.drawable.b33;
+        img31 = R.drawable.d3;
+        img32 = R.drawable.d33;
+        img33 = R.drawable.n3;
+        img34 = R.drawable.n33;
 
 
     }

@@ -36,6 +36,7 @@ public class teach extends AppCompatActivity {
 
 
 
+
         keys = shuffleArray(keys);
 
         for (String key : keys) {
@@ -75,7 +76,8 @@ public class teach extends AppCompatActivity {
         textView.setText(text);
         textView.setClickable(true);
         textView.setFocusable(true);
-        textView.setTextSize(32);
+        textView.setTextSize(10);
+
 
 
 

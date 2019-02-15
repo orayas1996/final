@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         Button btn = (Button) findViewById(R.id.button);
 
         btn.setVisibility(View.INVISIBLE);
@@ -157,6 +158,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void calculate(){
 
+
         if(stcard == ndcard){
             if(clickst ==0){
                 iv11.setVisibility(View.INVISIBLE);
@@ -254,12 +256,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void frontofCardResources(){
-        img11 = R.drawable.ee;
-        img12 = R.drawable.mm;
-        img13 = R.drawable.nn;
-        img21 = R.drawable.ee2;
-        img22 = R.drawable.mm2;
-        img23 = R.drawable.nn2;
+        img11 = R.drawable.n;
+        img12 = R.drawable.d;
+        img13 = R.drawable.b;
+        img21 = R.drawable.n1;
+        img22 = R.drawable.d1;
+        img23 = R.drawable.b1;
 
     }
 

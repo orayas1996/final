@@ -282,14 +282,14 @@ public class level2 extends AppCompatActivity {
           }
   }
     private void frontofCardResources(){
-        img11 = R.drawable.ee;
-        img12 = R.drawable.mm;
-        img13 = R.drawable.nn;
-        img14 = R.drawable.er;
-        img21 = R.drawable.ee2;
-        img22 = R.drawable.mm2;
-        img23 = R.drawable.nn2;
-        img24 = R.drawable.er2;
+        img11 = R.drawable.b;
+        img12 = R.drawable.d;
+        img13 = R.drawable.k;
+        img14 = R.drawable.n;
+        img21 = R.drawable.b2;
+        img22 = R.drawable.d2;
+        img23 = R.drawable.k2;
+        img24 = R.drawable.n2;
 
     }
 
